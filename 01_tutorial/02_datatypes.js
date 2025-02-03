@@ -58,3 +58,9 @@ const b = ++a;
 
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
+
+
+console.log(null>0); //false
+console.log(null==0); //false
+console.log(null>=0); //true 
+// comparisons convert the null into the number but the equality does not
